@@ -1,4 +1,9 @@
 @import url('css-reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+}
 
 nav {
   border-top: 10px solid #F5F5F5;
@@ -23,3 +28,85 @@ nav {
   text-decoration: underline;
 }
 
+.top-header {
+  background-image: url("images/front.jpg");
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 3%;
+}
+
+.top-header h1, h2 {
+  color: white;
+  font-weight: lighter;
+}
+
+.top-header h1 {
+  font-size: 70px;
+  margin-top: 1%;
+}
+
+.top-header h2 {
+  font-size: 36px;
+}
+
+.tickets {
+  padding-top: 57.2px;
+  text-align: center;
+  width: 95%;
+  margin: 0 auto;
+  border-bottom: 1px #efefef solid;
+  padding-bottom: 3%;
+}
+
+section h3 {
+  font-size: 32px;
+  font-weight: lighter;
+  font-size: 48px;
+  color: #444;
+  margin-bottom: 2%;
+}
+
+.tickets p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25px;
+}
+
+.tickets a {
+  background-color: #008000;
+  padding: 1% 3%;
+  display: inline-block;
+  color: white;
+  margin-top: .5%;
+  font-weight: bold;
+}
+
+.speakers {
+  padding-top: 57.2px;
+  text-align: center;
+  width: 95%;
+  margin: 0 auto;
+  border-bottom: 1px #efefef solid;
+  padding-bottom: 10%;
+}
+
+.speakers-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2%;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.speakers-grid li {
+  border: 1px #efefef solid;
+  padding-bottom: 60px;
+}
+
+.speakers-grid a {
+  color: #008000;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 40px;
+  display: inline-block;
+}
