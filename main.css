@@ -7,17 +7,22 @@ body {
 
 nav {
   border-top: 10px solid #F5F5F5;
-
+  position: fixed;
+  width: 100%;
+  background-color: white;
 }
 
 .nav-flex {
   display: flex;
+  flex-wrap: wrap;
   width: 65%;
   margin: 0 auto;
   justify-content: space-between;
-  padding: 10px 0;
-  /* position: fixed; */
+  padding: 0 2px;
+}
 
+.nav-flex li {
+  padding: 0 1%;
 }
 
 .nav-flex a {
@@ -30,6 +35,8 @@ nav {
 
 .top-header {
   background-image: url("images/front.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
   text-align: center;
   padding-top: 10%;
   padding-bottom: 3%;
@@ -109,4 +116,108 @@ section h3 {
   font-weight: bold;
   margin-top: 40px;
   display: inline-block;
+}
+
+.speakers-grid img {
+  display: block;
+  width: 100%;
+}
+
+.flex-li {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  padding: 2%;
+  justify-content: space-between;
+  border-bottom: 1px #efefef solid;
+}
+
+.schedule ul {
+  margin: 0 auto;
+  width: 55%;
+}
+
+.schedule {
+  text-align: center;
+}
+
+.flex-section {
+  flex: 2;
+  text-align: left;
+  margin-left: 1.5%;
+}
+
+.flex-section a {
+  color: #008000;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.flex-section a:hover {
+  text-decoration: underline;
+}
+
+.flex-li img {
+  display: block;
+  width: 130px;
+}
+
+.flex-li:first-child {
+  border-top: 1px #efefef solid;
+}
+
+.flex-section code {
+  background-color: #eeeeee;
+  border: .5px solid gray;
+  font-size: 8px;
+}
+
+@media (max-width: 943px) {
+  .speakers-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .flex-li > *:nth-child(1) {
+    order: 3;
+  }
+
+  .flex-li > *:nth-child(3) {
+    order: -1;
+  }
+
+  .flex-li img {
+    width: 80px;
+  }
+
+  .schedule ul {
+    width: 80%;
+  }
+
+  .speakers-grid {
+    height: min-content;
+  }
+
+  .schedule {
+    margin-top: 170px;
+  }
+}
+
+@media (max-width: 589px) {
+  .speakers-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .schedule ul {
+    width: 90%;
+  }
+
+  .schedule {
+    margin-top: 1100px;
+  }
 }
