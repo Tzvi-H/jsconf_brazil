@@ -1,0 +1,24 @@
+@import url('css-reset.css');
+
+body > header {
+  border-top: 10px solid #F5F5F5;
+}
+
+.nav-flex {
+  display: flex;
+  width: 65%;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding: 10px 0;
+  /* position: fixed; */
+
+}
+
+.nav-flex a {
+  color: black;
+}
+
+.nav-flex a:hover {
+  text-decoration: underline;
+}
+
