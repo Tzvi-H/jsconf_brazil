@@ -270,8 +270,48 @@ section h3 {
   font-weight: bold;
 }
 
+footer {
+  background-image: url('images/people.jpg');
+  padding-bottom: 2%;
+}
 
+footer h3 {
+  font-weight: lighter;
+  font-size: 48px;
+  color: white;
+  padding: 3% 0;
+  text-align: center;
+}
 
+.footer-info {
+  background-color: rgba(0, 0, 0, .6);
+  padding-left: 23.625%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.footer-info h4 {
+  color: white;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.footer-info p {
+  color: white;
+  margin-bottom: 1%;
+}
+
+.footer-info a {
+  color: #008000;
+  font-weight: bold;
+}
+
+.footer-info > a {
+  color: white;
+  background-color: #008000;
+  padding: 1% 3%;
+  display: inline-block;
+}
 
 @media (max-width: 943px) {
   .speakers-grid {
@@ -322,3 +362,4 @@ section h3 {
     margin-top: 1100px;
   }
 }
+
