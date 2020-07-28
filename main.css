@@ -72,6 +72,7 @@ section h3 {
   font-size: 48px;
   color: #444;
   margin-bottom: 2%;
+  text-align: center;
 }
 
 .tickets p {
@@ -150,13 +151,17 @@ section h3 {
   border-bottom: 1px #efefef solid;
 }
 
-.schedule ul {
-  margin: 0 auto;
-  width: 55%;
-}
 
 .schedule {
   text-align: center;
+  border-bottom: 1px #efefef solid;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.schedule ul {
+  margin: 0 auto;
+  width: 55%;
 }
 
 .flex-section {
@@ -188,6 +193,32 @@ section h3 {
   background-color: #eeeeee;
   border: .5px solid gray;
   font-size: 8px;
+}
+
+.location {
+  border-bottom: 1px #efefef solid;
+  width: 95%;
+  margin: 0 auto;
+  padding: 3% 0;
+}
+
+.location-info {
+  margin: 0 auto;
+  width: 55%;
+  margin-bottom: 2%;
+}
+
+.location-info:first-of-type p:first-of-type {
+  font-weight: bold;
+}
+
+.margin-3-percent-top-and-bottom {
+  margin: 3% 0;
+}
+
+.image-map {
+  margin-left: -3%;
+  width: 107%;
 }
 
 @media (max-width: 943px) {
