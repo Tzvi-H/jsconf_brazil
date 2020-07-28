@@ -249,6 +249,28 @@ section h3 {
   display: inline-block;
 }
 
+.sponsors {
+  width: 95%;
+  margin: 0 auto;
+  padding: 3% 0;
+}
+
+.sponsors-logos {
+  margin: 0 auto;
+  width: 55%;
+}
+
+.sponsors-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.sponsors-logos p {
+  font-weight: bold;
+}
+
+
 
 
 @media (max-width: 943px) {
