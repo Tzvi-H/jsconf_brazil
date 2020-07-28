@@ -221,6 +221,36 @@ section h3 {
   width: 107%;
 }
 
+.papers {
+  border-bottom: 1px #efefef solid;
+  width: 95%;
+  margin: 0 auto;
+  padding: 3% 0;
+}
+
+.papers-info {
+  margin: 0 auto;
+  width: 55%;
+}
+
+.papers-info p {
+  margin-bottom: 1%;
+}
+
+.papers-info a {
+  color: #008000;
+  font-weight: bold;
+}
+
+.papers-info > a {
+  color: white;
+  background-color: #008000;
+  padding: 1% 3%;
+  display: inline-block;
+}
+
+
+
 @media (max-width: 943px) {
   .speakers-grid {
     display: grid;
